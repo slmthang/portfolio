@@ -1,0 +1,21 @@
+
+#experiences-cont {
+    flex-direction: column;
+    width: 100vw;
+    line-height: 1.6;
+    
+    > h1 {
+        margin: 1rem 0;
+    }
+
+    #experiences {
+        width: 100%;
+        flex-direction: column;
+        
+        .experience {
+            width: 100%;
+            background-color: antiquewhite;
+            padding: 0.75rem;
+        }
+    }
+}

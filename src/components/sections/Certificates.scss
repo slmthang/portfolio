@@ -1,0 +1,31 @@
+
+#certificates-cont {
+    width: 100vw;
+    flex-direction: column;
+    line-height: 1.6;
+    
+    > h1 {
+        margin: 1rem 0;
+    }
+
+    #certificates {
+        width: 100%;
+
+        .certificate {
+            width: 100%;
+            padding: 0.75rem;
+            
+            > h1 {
+                font-size: 1.25rem;
+                margin-bottom: 0.25rem;
+            }
+
+            > h2 {
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+                font-weight: 550;
+            }
+        }
+    }
+    
+}
