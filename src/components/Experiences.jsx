@@ -28,44 +28,31 @@ export default function Experiences() {
                 :   <i className="fa-solid fa-chevron-down"></i>}
             </div>
             {expand ? (
-                    <ul id="experiences">
-                        <li className="experience">
+                    <ul id="experiences" className="center">
+                        <li className="experience boxShadow">
                             <div className="center">
                                 <h1>Position</h1>
-                                <h2>Company | 00/0000-00/0000</h2>
+                                <h2>~ Company Name | 00/0000-99/9999</h2>
                             </div>
 
                             <ul>
-                                <li>descrioption A</li>
-                                <li>descrioption B</li>
-                                <li>descrioption C</li>
-                                <li>descrioption D</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                <li>Fusce vehicula ac eros vitae varius. Vestibulum libero nisl, porttitor ac ipsum non, blandit malesuada erat</li>
+                                <li>Suspendisse vitae lacus ante. Integer ut augue condimentum, ultrices erat non, aliquam ante</li>
+                                <li>Maecenas hendrerit maximus cursus. Donec fermentum mattis leo ut fermentum</li>
                             </ul>
                         </li>
-                        <li className="experience">
+                        <li className="experience boxShadow">
                             <div className="center">
                                 <h1>Position</h1>
-                                <h2>Company | 00/0000-00/0000</h2>
+                                <h2>~ Company Name | 00/0000-99/9999</h2>
                             </div>
 
                             <ul>
-                                <li>descrioption A</li>
-                                <li>descrioption B</li>
-                                <li>descrioption C</li>
-                                <li>descrioption D</li>
-                            </ul>
-                        </li>
-                        <li className="experience">
-                            <div className="center">
-                                <h1>Position</h1>
-                                <h2>Company | 00/0000-00/0000</h2>
-                            </div>
-
-                            <ul>
-                                <li>descrioption A</li>
-                                <li>descrioption B</li>
-                                <li>descrioption C</li>
-                                <li>descrioption D</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                <li>Fusce vehicula ac eros vitae varius. Vestibulum libero nisl, porttitor ac ipsum non, blandit malesuada erat</li>
+                                <li>Suspendisse vitae lacus ante. Integer ut augue condimentum, ultrices erat non, aliquam ante</li>
+                                <li>Maecenas hendrerit maximus cursus. Donec fermentum mattis leo ut fermentum</li>
                             </ul>
                         </li>
                     </ul>    

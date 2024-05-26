@@ -28,32 +28,32 @@ export default function Skills() {
                 :   <i className="fa-solid fa-chevron-down"></i>}
             </div>
             {expand ? (
-                <ul id="skills">
-                    <li className="skill">
+                <ul id="skills" className="center">
+                    <li className="skill boxShadow">
                         <h1>Languages</h1>
                         <ul>
                             <li>Python, JavaScript, Bash, Java, C++ & PHP</li>
                         </ul>
                     </li>
-                    <li className="skill">
+                    <li className="skill boxShadow">
                         <h1>Databases</h1>
                         <ul>
                             <li>MySql, MongoDB, SQLite3</li>
                         </ul>
                     </li>
-                    <li className="skill">
+                    <li className="skill boxShadow">
                         <h1>Frameworks</h1>
                         <ul>
                             <li>React & Flask</li>
                         </ul>
                     </li>
-                    <li className="skill">
+                    <li className="skill boxShadow">
                         <h1>Testing</h1>
                         <ul>
                             <li>JEST & PyTest</li>
                         </ul>
                     </li>
-                    <li className="skill">
+                    <li className="skill boxShadow">
                         <h1>Tools</h1>
                         <ul>
                             <li>Git, Docker, JIRA, CircleCI and Figma</li>
