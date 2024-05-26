@@ -10,12 +10,31 @@ export default function Info() {
 
                 <img src={profileImg} alt=""/>
 
-                <div id="details">
-                    <p>716-275-2175</p>
-                    <p>slmthang2024@gmail.com</p>
-                    <p>github.com/slmthang/</p>
-                    <p>slmthang.com</p>
-                </div>
+                <ul id="details">
+                    <li>
+                        <i className="fa-solid fa-phone"></i>
+                        <a href="tel:+17162752175">
+                            716-275-2175
+                        </a>
+                    </li>
+                    <li>
+                        <i className="fa-solid fa-at"></i>
+                        <a href="mailto:slmthang2024@gmail.com">
+                            slmthang2024@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <i className="fa-brands fa-github"></i>
+                        <a href="https://github.com/slmthang">
+                            github.com/slmthang/
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://" id="resume">
+                            Resume <i className="fa-regular fa-circle-down"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <p id="introduction">
                 Hi, I am Solomon Thang, a passionate Software Developer who enjoys solving problems and buliding cool and impactful softwares.
