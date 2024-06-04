@@ -1,36 +1,11 @@
 
 #projects-cont {
-    width: 95vw;
+    width: 100vw;
     flex-direction: column;
     line-height: 1.6;
     border-bottom: 0.2px solid rgba(0, 0, 0, 0.199);
     color: var(--lightText);
     background-color: var(--bgColor1);
-    
-    #title {
-        width: 100%;
-        padding: 0.75rem;
-        justify-content: space-between;
-
-        > h1 {
-            color: var(--darkText);
-            font-size: 1.75rem;
-
-            > i {
-                font-size: 1.75rem;
-                margin-right: 0.75rem;
-            }
-        }
-
-        > i {
-            margin-right: 0.5rem;
-            font-size: 1.1rem;
-        }
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
 
     #projects {
         width: 100%;

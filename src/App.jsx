@@ -9,7 +9,7 @@ import Certificates from './components/Certificates';
 function App() {
 
   return (
-    <div id='main-display' className='center boxShadowInset'>
+    <div id='main-display'>
       <Info />
       <Experiences />
       <Projects />
