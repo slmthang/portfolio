@@ -7,8 +7,9 @@ import "./Info.scss";
 export default function Info() {
 
     return (
-            <div id="info-cont" className="center">
+            <section id="info-cont" className="center">
                 <div id="infos" className="center">
+                    <h1 class="section-title">Solomon Thang</h1>
                     <div id="info" className="boxShadow">
                         <div id="intro" className="center">
 
@@ -45,6 +46,6 @@ export default function Info() {
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
     )
 }

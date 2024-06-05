@@ -3,15 +3,18 @@
     width: 100vw;
     flex-direction: column;
     line-height: 1.6;
-    border-bottom: 0.2px solid rgba(0, 0, 0, 0.199);
-    color: var(--lightText);
+    color: var(--textColor1);
     background-color: var(--bgColor1);
 
     #projects {
         width: 100%;
         flex-direction: column;
         padding: 1rem 0;
-        background-color: var(--bgColor2);
+
+        .section-title {
+            color: var(--primaryColor);
+            margin-bottom: 1.5rem;
+        }
 
         .project {
             width: 95%;
@@ -32,7 +35,7 @@
                     > h1 {
                         font-size: 1.25rem;
                         font-style: italic;
-                        color: var(--darkText);
+                        color: var(--textColor1);
                     }
 
                     > h2 {
@@ -52,14 +55,14 @@
                 }
             }
 
-            #links {
+            .links {
                 margin-top: 1.5rem;
                 font-size: 1.25rem;
                 
                 > li {
                     list-style: none;
                     > a {
-                        color: var(--light-text);
+                        color: var(--textColor1);
                         margin-right: 1rem;
                     }
                 }
@@ -92,12 +95,12 @@
                     }
                 }
 
-                #links {
+                .links {
                     
                     > li {
                         > a {
                             &:hover {
-                                color: var(--darkText);
+                                color: var(--primaryColor);
                             }
                         }
                     }
@@ -111,8 +114,33 @@
 @media only screen and (min-width: 75rem) {
 
     #projects-cont {
-        width: 75rem;
-        border-left: 0.2px solid rgba(0, 0, 0, 0.199);
-        border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+
+        #projects {
+            width: 75rem;
+            border-left: var(--border);
+            border-right: var(--border);
+
+            .project {
+
+                > div {
+
+                    > div {
+
+                        > h1 {
+                            font-size: 1.25rem;
+                        }
+
+                        > h2 {
+
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+
+                > ul {
+                    font-size: 0.9rem;
+                }
+            }   
+        }
     }
 }

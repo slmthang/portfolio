@@ -4,15 +4,18 @@
     width: 100vw;
     flex-direction: column;
     line-height: 1.6;
-    border-bottom: 0.2px solid rgba(0, 0, 0, 0.199);
-    color: var(--lightText);
+    color: var(--textColor1);
     background-color: var(--bgColor1);
 
     #skills {
         width: 100%;
-        background-color: var(--bgColor2);
         flex-direction: column;
         padding: 1rem 0;
+
+        .section-title {
+            color: var(--primaryColor);
+            margin-bottom: 1.5rem;
+        }
 
         .skill {
             width: 95%;
@@ -23,7 +26,7 @@
             > h1 {
                 font-size: 1.25rem;
                 font-style: italic;
-                color: var(--darkText);
+                color: var(--textColor1);
                 margin-bottom: 0.5rem;
             }
 
@@ -45,8 +48,22 @@
 @media only screen and (min-width: 75rem) {
 
     #skills-cont {
-        width: 75rem;
-        border-left: 0.2px solid rgba(0, 0, 0, 0.199);
-        border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+
+        #skills {
+            width: 75rem;
+            border-left: var(--border);
+            border-right: var(--border);
+
+            .skill {
+    
+                > h1 {
+                    font-size: 1.25rem;
+                }
+    
+                > ul {
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
 }

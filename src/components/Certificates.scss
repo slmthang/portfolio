@@ -3,15 +3,18 @@
     width: 100vw;
     flex-direction: column;
     line-height: 1.6;
-    border-bottom: 0.2px solid rgba(0, 0, 0, 0.199);
-    color: var(--lightText);
+    color: var(--textColor1);
     background-color: var(--bgColor1);
 
     #certificates {
         width: 100%;
         flex-direction: column;
         padding: 1rem 0;
-        background-color: var(--bgColor2);
+
+        .section-title {
+            color: var(--primaryColor);
+            margin-bottom: 1.5rem;
+        }
 
         .certificate {
             width: 95%;
@@ -24,13 +27,12 @@
                 > li {
 
                     > h1 {
-                        color: var(--darkText);
+                        color: var(--textColor1);
                         font-size: 1.25rem;
                         font-style: italic;
                     }
     
                     > h2 {
-                        font-size: 1rem;
                         font-size: 0.8rem;
                         font-style: italic;
                         font-weight: 300;
@@ -47,8 +49,30 @@
 @media only screen and (min-width: 75rem) {
 
     #certificates-cont {
-        width: 75rem;
-        border-left: 0.2px solid rgba(0, 0, 0, 0.199);
-        border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+
+        #certificates {
+            width: 75rem;
+            border-left: 0.1px solid rgba(0, 0, 0, 0.1);
+            border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+
+            .certificate {
+    
+                > ul {
+    
+                    > li {
+    
+                        > h1 {
+                            font-size: 1.25rem;
+                        }
+        
+                        > h2 {
+                            font-size: 0.9rem;
+                            font-style: italic;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

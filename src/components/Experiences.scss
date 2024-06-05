@@ -3,15 +3,18 @@
     flex-direction: column;
     width: 100vw;
     line-height: 1.6;
-    border-bottom: 0.2px solid rgba(0, 0, 0, 0.199);
-    color: var(--lightText);
+    color: var(--textColor1);
     background-color: var(--bgColor1);
 
     #experiences {
         width: 100%;
         padding: 1rem 0;
-        background-color: var(--bgColor2);
         flex-direction: column;
+
+        .section-title {
+            color: var(--primaryColor);
+            margin-bottom: 1.5rem;
+        }
 
         .experience {
             width: 95%;
@@ -28,7 +31,7 @@
                 h1 {
                     font-size: 1.25rem;
                     font-style: italic;
-                    color: var(--darkText);
+                    color: var(--textColor1);
                 }
     
                 h2 {
@@ -74,8 +77,29 @@
 @media only screen and (min-width: 75rem) {
 
     #experiences-cont {
-        width: 75rem;
-        border-left: 0.2px solid rgba(0, 0, 0, 0.199);
-        border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+
+        #experiences {
+            width: 75rem;
+            border-left: var(--border);
+            border-right: var(--border);
+
+            .experience {
+    
+                > div {
+    
+                    h1 {
+                        font-size: 1.25rem;
+                    }
+        
+                    h2 {
+                        font-size: 0.9rem;
+                    }
+                }
+    
+                ul {
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
 }

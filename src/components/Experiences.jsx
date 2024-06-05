@@ -7,8 +7,9 @@ import "./Experiences.scss"
 export default function Experiences() {
 
     return (
-            <div id="experiences-cont">
+            <div id="experiences-cont" className="center">
                 <ul id="experiences" className="center">
+                    <h1 class="section-title">Experiences</h1>
                     <li className="experience boxShadow">
                         <div className="center">
                             <h1>Position</h1>

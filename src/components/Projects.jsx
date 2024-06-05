@@ -8,6 +8,7 @@ export default function Projects() {
     return (
             <div id="projects-cont" className="center">
                 <ul id="projects" className="center">
+                    <h1 class="section-title">Projects</h1>
                     <li className="project boxShadow">
                         <div className="center">
                                 <div className="center">
@@ -22,7 +23,7 @@ export default function Projects() {
                             <li>simple and clean UI of the app allows users to organize and plan their days with ease</li>
                         </ul>
 
-                        <ul id="links">
+                        <ul class="links">
                             <li>
                                 <a href="https://github.com/slmthang/capp">
                                     <i className="fa-brands fa-github"></i>
@@ -37,7 +38,7 @@ export default function Projects() {
                         <div className="center">
                                 <div className="center">
                                     <h1>Sentiment Analyzer</h1>
-                                    <h2>~ HPython</h2>
+                                    <h2>~ Python</h2>
                                 </div>
                         </div>
                         
@@ -47,7 +48,7 @@ export default function Projects() {
                             <li>program yields 80.8% accuracy based on the testing and training data.</li>
                         </ul>
 
-                        <ul id="links">
+                        <ul class="links">
                             <li>
                                 <a href="https://github.com/slmthang/sentiment-analyzer">
                                     <i className="fa-brands fa-github"></i>
@@ -73,7 +74,7 @@ export default function Projects() {
                             <li>quality of sentences that are generated will depend on the size and quality of the input data, and the n-gram model it is used</li>
                         </ul>
 
-                        <ul id="links">
+                        <ul class="links">
                             <li>
                                 <a href="https://github.com/slmthang/sentence-generator">
                                     <i className="fa-brands fa-github"></i>
@@ -98,7 +99,7 @@ export default function Projects() {
                             <li>features: public chat, private chat, chat history</li>
                         </ul>
 
-                        <ul id="links">
+                        <ul class="links">
                             <li>
                                 <a href="https://github.com/slmthang/chat-app">
                                     <i className="fa-brands fa-github"></i>
