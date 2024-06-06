@@ -8,7 +8,7 @@ export default function Projects() {
     return (
             <div id="projects-cont" className="center">
                 <ul id="projects" className="center">
-                    <h1 class="section-title">Projects</h1>
+                <header class="section-title center"><h1>Projects</h1></header>
                     <li className="project boxShadow">
                         <div className="center">
                                 <div className="center">

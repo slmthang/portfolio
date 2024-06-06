@@ -9,7 +9,7 @@ export default function Info() {
     return (
             <section id="info-cont" className="center">
                 <div id="infos" className="center">
-                    <h1 class="section-title">Solomon Thang</h1>
+                    <header class="section-title center"><h1>Solomon Thang</h1></header>
                     <div id="info" className="boxShadow">
                         <div id="intro" className="center">
 

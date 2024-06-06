@@ -13,15 +13,20 @@
         padding: 1rem 0;
 
         .section-title {
+            width: 100%;
+            height: 3.5rem;
             color: var(--primaryColor);
             margin-bottom: 1.5rem;
+            position: sticky;
+            top: 0;
+            background-color: var(--bgColor1);
         }
 
         .skill {
             width: 95%;
             padding: 2rem;
             margin-bottom: 1.25rem;
-            background-color: var(--bgColor1);
+            background-color: var(--bgColor2);
 
             > h1 {
                 font-size: 1.25rem;

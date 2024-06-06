@@ -7,8 +7,8 @@ export default function Certificates() {
 
     return (
             <div id="certificates-cont" className="center">
+                <header class="section-title center"><h1>Certificates</h1></header>
                 <ul id="certificates" className="center">
-                    <h1 class="section-title">Certificates</h1>
                     <li className="certificate boxShadow">
                         <ul>
                             <li style={{listStyle: "square"}}>

@@ -12,15 +12,20 @@
         flex-direction: column;
 
         .section-title {
+            width: 100%;
+            height: 3.5rem;
             color: var(--primaryColor);
             margin-bottom: 1.5rem;
+            position: sticky;
+            top: 0;
+            background-color: var(--bgColor1);
         }
 
         .experience {
             width: 95%;
             padding: 2rem;
             margin-bottom: 2rem;
-            background-color: var(--bgColor1);
+            background-color: var(--bgColor2);
 
             > div {
                 width: 100%;

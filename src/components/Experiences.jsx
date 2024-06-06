@@ -9,7 +9,7 @@ export default function Experiences() {
     return (
             <div id="experiences-cont" className="center">
                 <ul id="experiences" className="center">
-                    <h1 class="section-title">Experiences</h1>
+                <header class="section-title center"><h1>Experiences</h1></header>
                     <li className="experience boxShadow">
                         <div className="center">
                             <h1>Position</h1>
