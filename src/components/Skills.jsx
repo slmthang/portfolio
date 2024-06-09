@@ -8,8 +8,10 @@ export default function Skills() {
 
     return (
         <div id="skills-cont" className="center">
+
+            <header className="section-title center"><h2>Skills</h2></header>
+
             <ul id="skills" className="center">
-            <header class="section-title center"><h1>Skills</h1></header>
                 <li className="skill boxShadow">
                     <h1>Languages</h1>
                     <ul>

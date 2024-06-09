@@ -1,5 +1,6 @@
 
-#experiences-cont {
+
+#educations-cont {
     flex-direction: column;
     width: 100vw;
     line-height: 1.6;
@@ -17,12 +18,12 @@
     }
     
 
-    #experiences {
+    #educations {
         width: 100%;
         padding: 1rem 0;
         flex-direction: column;
 
-        .experience {
+        .education {
             width: 95%;
             padding: 2rem;
             margin-bottom: 2rem;
@@ -61,11 +62,11 @@
 
 @media only screen and (min-width: 40rem) {
 
-    #experiences-cont {
+    #educations-cont {
 
-        #experiences {
+        #educations {
 
-            .experience {
+            .education {
 
                 > div {
                     flex-direction: row;
@@ -82,14 +83,14 @@
 
 @media only screen and (min-width: 75rem) {
 
-    #experiences-cont {
+    #educations-cont {
         width: 75rem;
         border-left: var(--border);
         border-right: var(--border);
         
-        #experiences {
+        #educations {
 
-            .experience {
+            .education {
     
                 > div {
     

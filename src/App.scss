@@ -16,7 +16,7 @@
     --bgColor2: #201d1dad;
     --primaryColor: green;
     --textColor1: rgba(255, 255, 255, 0.7);
-    --border: 0.1px solid rgba(0, 0, 0, 0.1);
+    --border: 0.1px solid rgba(0, 128, 0, 0.175);
 }
 
 
@@ -24,6 +24,11 @@
     width: 100vw;
     min-height: 100vh;
     font-family: 'Roboto Mono', monospace;
+    background-color: var(--bgColor1);
+
+    > main {
+        flex-direction: column;
+    }
 }
 
 .boxShadow {

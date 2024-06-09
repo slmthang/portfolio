@@ -7,10 +7,11 @@ import "./Info.scss";
 export default function Info() {
 
     return (
-            <section id="info-cont" className="center">
-                <div id="infos" className="center">
-                    <header class="section-title center"><h1>Solomon Thang</h1></header>
-                    <div id="info" className="boxShadow">
+            <section id="info-cont" className="center show">
+                <header className="section-title center"><h2>Solomon Thang</h2></header>
+                
+                <ul id="infos" className="center">
+                    <li id="info" className="boxShadow">
                         <div id="intro" className="center">
 
                             <img src={profileImg} alt=""/>
@@ -44,8 +45,8 @@ export default function Info() {
                         <p id="introduction">
                             Hi, I am Solomon Thang, a passionate Software Developer who enjoys solving problems and buliding cool and impactful softwares.
                         </p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
     )
 }

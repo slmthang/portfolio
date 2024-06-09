@@ -7,20 +7,20 @@
     color: var(--textColor1);
     background-color: var(--bgColor1);
 
+    .section-title {
+        width: 100%;
+        height: 3.5rem;
+        color: var(--primaryColor);
+        margin-bottom: 1.5rem;
+        position: sticky;
+        top: 0;
+        background-color: var(--bgColor1);
+    }
+
     #skills {
         width: 100%;
         flex-direction: column;
         padding: 1rem 0;
-
-        .section-title {
-            width: 100%;
-            height: 3.5rem;
-            color: var(--primaryColor);
-            margin-bottom: 1.5rem;
-            position: sticky;
-            top: 0;
-            background-color: var(--bgColor1);
-        }
 
         .skill {
             width: 95%;
@@ -53,11 +53,12 @@
 @media only screen and (min-width: 75rem) {
 
     #skills-cont {
-
+        width: 75rem;
+        border-left: var(--border);
+        border-right: var(--border);
+        
         #skills {
-            width: 75rem;
-            border-left: var(--border);
-            border-right: var(--border);
+            
 
             .skill {
     

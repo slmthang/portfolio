@@ -56,11 +56,12 @@
 @media only screen and (min-width: 75rem) {
 
     #certificates-cont {
+        width: 75rem;
+        border-left: var(--border);
+        border-right: var(--border);
 
         #certificates {
-            width: 75rem;
-            border-left: 0.1px solid rgba(0, 0, 0, 0.1);
-            border-right: 0.2px solid rgba(0, 0, 0, 0.199);
+            
 
             .certificate {
     

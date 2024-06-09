@@ -7,7 +7,7 @@ export default function Certificates() {
 
     return (
             <div id="certificates-cont" className="center">
-                <header class="section-title center"><h1>Certificates</h1></header>
+                <header className="section-title center"><h2>Certificates</h2></header>
                 <ul id="certificates" className="center">
                     <li className="certificate boxShadow">
                         <ul>
