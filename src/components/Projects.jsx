@@ -24,7 +24,7 @@ export default function Projects() {
                         </div>
                         
                         <div id="screenshot" className="center">
-                            <img src={calendarImg} alt="calendar app screenshot" />
+                            <img src={calendarImg} alt="calendar app screenshot" loading="lazy"/>
                         </div>
 
                         <ul>
@@ -53,7 +53,7 @@ export default function Projects() {
                         </div>
 
                         <div id="screenshot" className="center">
-                            <img src={sentimentAnalyzer} alt="sentiment analyzer screenshot" />
+                            <img src={sentimentAnalyzer} alt="sentiment analyzer screenshot" loading="lazy"/>
                         </div>
                         
                         <ul>
@@ -82,7 +82,7 @@ export default function Projects() {
                         </div>
 
                         <div id="screenshot" className="center">
-                            <img src={sentenceGenImg} alt="sentence generator screenshot" />
+                            <img src={sentenceGenImg} alt="sentence generator screenshot" loading="lazy"/>
                         </div>
                         
                         <ul>
@@ -112,7 +112,7 @@ export default function Projects() {
                         </div>
 
                         <div id="screenshot" className="center">
-                            <img src={chatImg} alt="chat room app screenshot" />
+                            <img src={chatImg} alt="chat room app screenshot" loading="lazy"/>
                         </div>
                         
                         <ul>
