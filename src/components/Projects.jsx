@@ -1,6 +1,10 @@
 
 import { useState } from "react"
 import "./Projects.scss"
+import calendarImg from '../assets/calendar.jpg';
+import chatImg from '../assets/chat.jpg';
+import sentenceGenImg from '../assets/sentenceGen.jpg';
+import sentimentAnalyzer from '../assets/sentimentAnalyzer.jpg';
 
 
 export default function Projects() {
@@ -19,6 +23,10 @@ export default function Projects() {
                                 </div>
                         </div>
                         
+                        <div id="screenshot" className="center">
+                            <img src={calendarImg} alt="calendar app screenshot" />
+                        </div>
+
                         <ul>
                             <li>a web-based calendar app that provides an interactive calendar</li>
                             <li>can create, manage and see all of their calendar data across all devices, and all in one place</li>
@@ -42,6 +50,10 @@ export default function Projects() {
                                     <h1>Sentiment Analyzer</h1>
                                     <h2>~ Python</h2>
                                 </div>
+                        </div>
+
+                        <div id="screenshot" className="center">
+                            <img src={sentimentAnalyzer} alt="sentiment analyzer screenshot" />
                         </div>
                         
                         <ul>
@@ -68,6 +80,10 @@ export default function Projects() {
                                     <h2>~ Python</h2>
                                 </div>
                         </div>
+
+                        <div id="screenshot" className="center">
+                            <img src={sentenceGenImg} alt="sentence generator screenshot" />
+                        </div>
                         
                         <ul>
                             <li>a sentence generator that is developed using the n-gram models</li>
@@ -93,6 +109,10 @@ export default function Projects() {
                                     <h1>Simple Chat App</h1>
                                     <h2>~ Python</h2>
                                 </div>
+                        </div>
+
+                        <div id="screenshot" className="center">
+                            <img src={chatImg} alt="chat room app screenshot" />
                         </div>
                         
                         <ul>
